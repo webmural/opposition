@@ -8,24 +8,14 @@
   color: aquamarine;
 }
 
-:link {
-  color: #100;
-  background: skyblue;
-}
-
-:visited {
-  color: #100;
-  background: deepskyblue;
+:any-link {
+  color: #020108;
+  background: hsl(180, 90%, 90%, 30%);
 }
 
 :any-link:hover {
   background: aquamarine;
   text-decoration-color: navy;
-}
-
-mark {
-  background: chartreuse;
-  color: #100;
 }
 
 body {
